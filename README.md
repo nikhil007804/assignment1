@@ -1,20 +1,21 @@
-1. system prompt :
+1. ##system prompt :
 --prompt defines the system or it give instructions to a system 
 --ex: act as social teacher,answer should be in bullet points etc
   so that the system now behave as social teacher,we can also give temp score( range is in btw 0 to 1 
-   user prompt : 
+   ## user prompt : 
 -- prompt given by the user 
 --ex: explain world war
    this is given by user
 
-2. LLM-- model which trained on large data to give answer in less time where user ask question and the llm gives answer in same language ex:--gpt 4,gemini2.5 pro etc 
+2. 
+##LLM-- model which trained on large data to give answer in less time where user ask question and the llm gives answer in same language ex:--gpt 4,gemini2.5 pro etc 
         Its not uptodated daily
         there are open source and close source
- api -- application programming interface
+ ##api -- application programming interface
         its middleware btw the client and server , client request the api through payload and give it to the server and then api gives response to client 
-inference -- it means run the model
+##inference -- it means run the model
 
-workflow -- the flow of work like executing works/task one by one after completing the one work 
+##workflow -- the flow of work like executing works/task one by one after completing the one work 
 
 3. crawler through n8n
 open n8n and go to canvas and click + there will be  AI select it after thst select  AI agent go back to canvas
@@ -25,13 +26,13 @@ save it and run
 
 
 4.role based prompting means the model that acts as what mentioned in prompt 
-ex:act as doctor who has 15 years of experience in neuro 
-   give output as bullet points
-   tone should be confident 
+ex:--act as doctor who has 15 years of experience in neuro 
+   --give output as bullet points
+   --tone should be confident 
 
 5.
-ollama run llama3-- run the model
-ollama pull llama3-- pulls it , but it doesnt run
+ollama run llama3-> run the model
+ollama pull llama3-> pulls it , but it doesnt run
 
 6.
 from ollama import chat
