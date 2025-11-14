@@ -12,7 +12,7 @@
         there are open source and close source
  api -- application programming interface
         its middleware btw the client and server , client request the api through payload and give it to the server and then api gives response to client 
-inference -- it means run it can act as command 
+inference -- it means run the model
 
 workflow -- the flow of work like executing works/task one by one after completing the one work 
 
@@ -44,7 +44,6 @@ response: ChatResponse = chat(model='gemma3', messages=[
   },
 ])
 print(response['message']['content'])
-# or access fields directly from the response object
 print(response.message.content)
 
 7.
